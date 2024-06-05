@@ -1,0 +1,111 @@
+*{
+    font-family: 'DM Sans', sans-serif;
+}
+.first-heading{
+    font-size: 20px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.second-heading{
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.third-heading{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.fourth-heading{
+    font-size: 17px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.fifth-heading{
+    font-size: 16px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.sixth-heading{
+    font-size: 15px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.seventh-heading{
+    font-size: 14px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.eighth-heading{
+    font-size: 13px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.ninth-heading{
+    font-size: 12px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.tenth-heading{
+    font-size: 11px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.first-subheader{
+    font-size: 10px !important;
+}
+
+.second-subheader{
+    font-size: 9px !important;
+}
+
+.third-subheader{
+    font-size: 8px !important;
+}
+
+.fourth-subheader{
+    font-size: 7px !important;
+}
+
+.fifth-subheader{
+    font-size: 6px !important;
+}
+
+.first-paragraph{
+    font-size: 14px !important;
+    font-weight: lighter !important;
+}
+
+.second-paragraph{
+    font-size: 13px !important;
+    font-weight: lighter !important;
+}
+
+.third-paragraph{
+    font-size: 12px !important;
+    font-weight: lighter !important;
+}
+
+.fourth-paragraph{
+    font-size: 11px;
+    font-weight: lighter;
+}
+
+.fifth-paragraph{
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.requestCard {
+    background-color: #e5e8ee;
+}
+
+ion-card {
+    background-color: #ffffff;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,6 +1,11 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router';
+import PrimeVue from 'primevue/config';
+import Card from 'primevue/card';
+import Badge from 'primevue/badge';
+import Toast from 'primevue/toast';
+import ToastService from 'primevue/toastservice';
 
 import { IonicVue } from '@ionic/vue';
 
@@ -29,14 +34,20 @@ import '@ionic/vue/css/display.css';
 
 /* @import '@ionic/vue/css/palettes/dark.always.css'; */
 /* @import '@ionic/vue/css/palettes/dark.class.css'; */
-import '@ionic/vue/css/palettes/dark.system.css';
+//import '@ionic/vue/css/palettes/dark.system.css';
 
 /* Theme variables */
 import './theme/variables.css';
 
-const app = createApp(App)
-  .use(IonicVue)
-  .use(router);
+const app = createApp(App);
+  app.use(IonicVue);
+  app.use(router);
+  app.use(PrimeVue, { ripple: true  });
+
+  app.component('Card', Card);
+  app.component('Badge', Badge);
+  app.component('Toast', Toast);
+  app.use(ToastService);
 
 router.isReady().then(() => {
   app.mount('#app');
